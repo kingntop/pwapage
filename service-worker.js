@@ -3,7 +3,7 @@
 const OFFLINE_URL = 'offline.html';
 const CACHE_NAME = 'pwa-cache-v1';
 const urlsToCache = [
-  '/',
+  '/pwapage/',
   '/pwapage/index.html',
   '/pwapage/offline.html',
   '/pwapage/styles.css',
