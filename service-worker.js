@@ -4,10 +4,10 @@ const OFFLINE_URL = 'offline.html';
 const CACHE_NAME = 'pwa-cache-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/offline.html',
-  '/styles.css',
-  '/script.js'
+  '/pwapage/index.html',
+  '/pwapage/offline.html',
+  '/pwapage/styles.css',
+  '/pwapage/script.js'
 ];
 
 self.addEventListener('install', event => {
